@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Company</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+            font-family: 'Open Sans', sans-serif;
+        }
+
+      .grid{
+        background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/0086a1d04a525f5f9df61e3f/smin.jpg);
+        display: grid;
+        grid-template-rows:600px 1fr;
+        justify-items: start;
+
+        justify-content: center;
+      }
+
+       .txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 10rem 0 6rem;
+
+       }
+    
+        .txt h1{
+            color: #ffffff;
+            font-size: 5rem;
+            font-weight: 600;     
+            line-height: 1.1;       
+        }
+        .txt p{
+            color: #ffffff;
+            font-size:1.6rem;
+            font-weight: 400;  
+            margin:  2rem 0 2rem; /*top right bottom left*/
+            line-height: 1.7;
+            letter-spacing: 1.5px;
+       
+        }
+        .txt a{
+            color: #111111;
+            text-decoration: none;
+            padding: 16px 32px;
+            background-color: #ffffff;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .cards{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            justify-items: center;
+             align-items: center;
+            gap: 50px;
+            margin-bottom: 4rem; 
+             margin-top: 4rem;
+        }
+        .card{
+            background-color: #fff;
+            padding: 32px;
+          
+            
+        }
+        .card img{
+            width: 400px;
+            height: 259px;
+        }
+        .card h3{
+            text-transform: uppercase;
+            color: #111111;
+            font-size: 1.5rem;
+            font-weight: 400;
+            padding-top: 16px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <section class="grid">
+      <div class="txt">
+        <h1>
+          IF IT'S BROKEN, <br />
+          WE FIX IT.
+        </h1>
+        <p>
+          We are home repair and improvement experts, and we are known for the <br>
+          quality of our workmanship and our reliability, so you know the job <br>
+          will be done correctly and efficiently.
+        </p>
+        <a href="#">view more</a>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img
+            src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/35cd96b34f0e541582097f37/1.jpg"
+            alt=""
+          />
+          <h3>skilled handyman</h3>
+        </div>
+        <div class="card">
+          <img
+            src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/3d76ec06259150279b732ff5/billionphotos1883027.jpg"
+            alt=""
+          />
+          <h3>problem solving</h3>
+        </div>
+        <div class="card">
+          <img
+            src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d47d34f4bfe95c8fa0fb8a3a/c.jpg"
+            alt=""
+          />
+          <h3>the right tools</h3>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
